@@ -1,0 +1,310 @@
+
+body {
+    font-family: 'Airbnb Cereal App', sans-serif;
+}
+
+.navbar {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.news-link {
+    font-size: 24px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+
+.nav-item > a:hover {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+
+  #side-search-icon,
+  #side-language-icon {
+    margin-right: -40px;
+    z-index: 999;
+}
+
+  @media (min-width: 768px) {
+       #navbarMenu {
+           display: none !important;
+       }
+  }
+
+
+  /* Hero Content */
+
+  .row-hero-content {
+    margin-top: 80px;
+}
+  .main-image {
+      background-image: url(./Images/main-image.webp);
+      background-size: cover;
+      background-position: center;
+      padding-top: calc(1/2 * 100%);
+      max-width: 100%;
+  }
+
+  @media (min-width: 0px) and (max-width: 768px) {
+    .fluid-smallScreen {
+        max-width: 100%;
+        margin: 0 !important;
+        padding: 0 30px 0 30px !important;
+        box-sizing: border-box;
+  }
+
+  .row-hero-content {
+      margin-top: 20px !important;
+  }
+
+  .main-heading {
+      font-size: 1.35rem !important;
+  }
+
+  .sub-hero {
+      margin-top: 20px !important;
+  }
+}
+
+   @media (min-width: 992px) and (max-width: 1200px) {
+      .main-heading {
+        font-size: 1.75rem !important;
+    }
+  }
+
+   @media (min-width: 768px) and (max-width: 992px) {
+    .main-image {
+        padding-top: calc(2/3 * 100%);
+    }
+
+    .main-heading {
+        font-size: 1.25rem !important;
+    }
+   }
+
+
+
+ span {
+    color: #717171;
+}
+
+.main-header a {
+    color: black;
+}
+
+.main-header > a:hover {
+    text-decoration: underline;
+}
+
+.main-header p {
+    color: #222222;
+}
+
+.col-lg-3 img {
+    display: block;
+    padding-top: calc(1/30 * 100%);
+    width: 100%;    
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.col-lg-3 a {
+    color: #222222;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.social-media {
+    border: 1px solid #82828266;
+    border-radius: 10px;
+}
+
+.social-media .fab {
+    font-size: 25px;
+}
+
+
+@media (max-width:992px) {
+    .social-media {
+      width: 70%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .social-media-icons {
+        justify-content: center;
+    }
+}
+/* Dark background content */
+
+.main-content {
+    background-color: black;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.col-md-6 {
+    margin-top: 0;
+
+}
+.col-md-6 .btn {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    border: 1px solid white;
+    height: 50px;
+    width: 25%;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .col-md-6 .btn {
+        display: none !important;
+    }
+
+    .col-12 .btn {
+        margin-top: 60px;
+    }
+
+    .gray-background {
+        margin-top: 0 !important;
+    }
+}
+.col-12 .btn {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    border: 1px solid white;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+@media (min-width:768px) {
+    .col-12 .btn {
+        display: none !important;
+    }
+}
+
+.scrollableRow {
+    overflow-x: scroll;
+  }
+
+  @media (min-width:1200px) {
+    .scrollableRow {
+        overflow: hidden;
+    }
+  }
+
+
+.aspectRatioBox {
+    padding-top: calc(1/1 * 100%);
+    background-size: cover;
+    background-position: contain;
+  }
+
+   .gray-background span {
+      color: white;
+      display: block;
+  }
+
+  .gray-background {
+      position: relative;
+      background-color: #222323;
+      border-radius: 15px;
+  }
+
+  @media (min-width:768px) {
+      .main-content .wrapping-row,
+      .main-content .row {
+          padding-right: 20px;
+          padding-left: 20px;
+      }
+  }
+
+  @media (min-width:1200px) {
+    .main-content .wrapping-row {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+
+
+/* Footer Extra Large screens*/
+
+footer {
+    background-color: #f7f7f7;
+}
+
+footer h6 {
+    font-size: 12px;
+    color: #222222;
+}
+
+ .col-xl-3 a,
+ .col-12 p,
+ .col-12 a {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 300;
+}
+
+.col-12 a {
+    color: black;
+}
+
+.col-12 .fab {
+    font-size: 25px;
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+    #footerXL {
+        display: none !important;
+    }
+}
+
+
+
+
+/* Footer for Medium and Large screens */
+
+@media (min-width:0px) and (max-width: 768px) {
+    #footerMDscreens {
+        display: none !important;
+    }
+
+    .hr-disclaimer,
+    .hr-support {
+        display: block !important;
+    }
+
+    #footerIcons {
+        justify-content: start !important;
+        order: 1;
+        padding: 10px;
+    }
+
+    #order2 {
+        order: 2;
+    }
+}
+
+@media (min-width:1200px) {
+    #footerMDscreens {
+        display: none !important;
+    }
+}
+
+#footerMDscreens a,
+ .col p,
+ .col a {
+    font-size: 14px;
+    color: #222222;
+    font-weight: 300;
+}

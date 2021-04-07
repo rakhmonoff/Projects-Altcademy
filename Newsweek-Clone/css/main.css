@@ -1,0 +1,151 @@
+/*--- Main content ---*/
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.main-article {
+    text-align: center;
+    position: relative;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.info-container {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.5) 0,#fff 50%,#fff 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 4px solid red;
+}
+
+.link-US {
+    color: red;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.link-justice {
+    color: black;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+/* ---Sub main content ----*/
+
+.col-sm-6 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sponsor-content {
+    background-color: #e6ffff;
+    border: 1px solid #cdf0ff;
+}
+.link-sponsor {
+    line-height: 24px;
+    font-size: 22px;
+}
+
+.small-articles {
+    border-right: 2px solid #f2f2f2;
+}
+
+/* ----- Side menu ---- */
+
+.headline {
+    margin: 30px auto;
+    color: red;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: left;
+}
+
+ul {
+    margin-right: 40px;
+    }
+
+.side-bar {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: left;
+    list-style: square;
+    list-style-position: inside;
+    color: red;
+    
+}
+
+.side-bar a {
+    color: black;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #e5e5e5;
+    color: #757575;
+    font-size: 16px;
+    height: 62px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.list-button {
+    list-style: none;
+    margin-top: 40px;
+}
+
+/*---- Media quaries ---*/
+
+@media (max-width: 991px) {
+    .side-menu {
+        background-color: #f7f7f7;
+        border: 1px solid #e5e5e5;
+    }
+    .side-bar,
+    .headline {
+        text-align: center;
+        display: block;
+    }
+    hr {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .side-bar,
+    .headline {
+        text-align: center;
+        display: block;
+    }
+
+    .col-xs-12 {
+        width: 100% !important;
+    }
+
+    .side-menu {
+        background-color: #f7f7f7;
+        border: 1px solid #e5e5e5;
+    }
+
+    .info-container {
+        position: static;
+    }
+}
